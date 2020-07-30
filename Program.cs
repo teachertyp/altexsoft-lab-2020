@@ -16,7 +16,7 @@ namespace NetCore
 
         static void Main(string[] args)
         {
-            //System.Console.WriteLine(args.Length);
+            //alex.geraschenko@altexsoft.com
             if (args.Length > 0)
             {
                 if (args.Length > 1)
