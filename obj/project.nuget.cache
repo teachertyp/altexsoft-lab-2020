@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A2XukbrOU7PyKFCXgvU+4pn1RAtbHm5i9yqZ9ULway1KRsK5cH4IuAW18ZWcX5zWtjU448O/qyEFelHPmzNfKQ==",
+  "dgSpecHash": "AU8Ugn3MTCcViUm4VHF57qKQRwkxwCRIqX2Pzbx5Hbjsm7mMbX7RfeDrfW/ebzCMUTSxdBHwqptiunavpt3GXg==",
   "success": true,
-  "projectFilePath": "/home/typ/GIT/NetCore/NetCore.csproj",
+  "projectFilePath": "/home/typ/GIT/NetCore/task1/NetCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

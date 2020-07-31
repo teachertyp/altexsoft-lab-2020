@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/typ/GIT/NetCore/NetCore.csproj",
+      "projectUniqueName": "/home/typ/GIT/NetCore/task1/NetCore.csproj",
       "projectName": "NetCore",
-      "projectPath": "/home/typ/GIT/NetCore/NetCore.csproj",
+      "projectPath": "/home/typ/GIT/NetCore/task1/NetCore.csproj",
       "packagesPath": "/home/typ/.nuget/packages/",
-      "outputPath": "/home/typ/GIT/NetCore/obj/",
+      "outputPath": "/home/typ/GIT/NetCore/task1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/typ/.nuget/NuGet/NuGet.Config"

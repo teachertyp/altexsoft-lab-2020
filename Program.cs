@@ -239,16 +239,28 @@ namespace NetCore
 
                         if (line.Length > 0)
                         {
-                            i++;
-                            if (i == 3)
-                            {
-                                words = line;
-                            }
+                            words += line;
 
                         }
 
 
 
+                    }
+                    int dprev=0;
+                    int dnow=0;
+                    for(i=0;i<words.Length;i++){
+                        if(words[i]=='.'){
+                            if(i>0&&dnow==0){
+                                dprev=i;
+                                dnow=i;
+                            }else{
+                                dprev=dnow;
+                                dnow=i;
+                            }
+                            if(dnow%3==0){
+                                words=words.Substring(dprev+1,dnow-dprev);
+                            }
+                        }
                     }
                     string[] wordsarray = _split_array(words);
                     words = "";
